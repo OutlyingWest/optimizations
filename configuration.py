@@ -1,28 +1,31 @@
 """
 Contains features for load settings
 """
+import os
+import json
 from dataclasses import dataclass
 from environs import Env
 
 
+@dataclass()
+class Paths:
+    data: str
+    style: str
+
+
 @dataclass
 class Config:
-    from_date: str
-    to_date: str
-    update_period: int
-    sample_time: str
-    print_detailed_info: bool
+    paths: Paths
+    button_links_dict: dict
 
 
 def load_config(path: str = None):
     env = Env()
     env.read_env(path)
-
+    project_path = os.path.dirname((os.path.abspath(__file__)))
     # load configuration from file
     return Config(
-        from_date=env.str('FROM_DATE'),
-        to_date=env.str('TO_DATE'),
-        update_period=env.int('UPDATE_PERIOD'),
-        sample_time=env.str('SAMPLE_TIME'),
-        print_detailed_info=env.bool('PRINT_DETAILED_INFO')
+        paths=Paths(data=project_path + env.str('DATA_PATH'),
+                    style=project_path + env.str('STYLE_PATH'),),
+        button_links_dict=env.dict('BUTTON_LINKS', subcast_values=str)
     )
