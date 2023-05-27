@@ -1,0 +1,5 @@
+background: rgba(47, 203, 22, 0.6);
+border-radius: 20px;
+border-width: 1px;
+border-color: darkgray;
+border-style: solid;
