@@ -28,11 +28,8 @@ class MainWindow(QMainWindow):
         # Receive pushed button object
         button_obj: QPushButton = self.sender()
         button_name = button_obj.objectName()
-        print(button_obj.objectName())
         self.info_widgets[button_name] = InfoWidget()
         # Load info
-        print(self.config.paths.data)
-        print(self.config.button_links_dict)
         files_manager = InfoFilesHandler(file_path=self.config.paths.data,
                                          info_file_name=self.config.button_links_dict[button_name])
         info_text = files_manager.read_info_from_file()
