@@ -64,7 +64,7 @@
          </font>
         </property>
         <property name="text">
-         <string>Оптимизация времени реализации проектов</string>
+         <string>Отдел управления</string>
         </property>
        </widget>
       </item>
@@ -82,7 +82,7 @@
          </font>
         </property>
         <property name="text">
-         <string>Оптимизация выездов замерщиков</string>
+         <string>Отдел логистики</string>
         </property>
        </widget>
       </item>
@@ -100,7 +100,7 @@
          </font>
         </property>
         <property name="text">
-         <string>Оптимизация распределение архитекторов</string>
+         <string>Отдел финансов</string>
         </property>
        </widget>
       </item>
@@ -118,7 +118,7 @@
          </font>
         </property>
         <property name="text">
-         <string>Оптимизация распределения средств по объектам </string>
+         <string>Бухгалтерия</string>
         </property>
        </widget>
       </item>

@@ -88,9 +88,9 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Optimizations", None))
-        self.ProjectsButton.setText(QCoreApplication.translate("MainWindow", u"\u041e\u043f\u0442\u0438\u043c\u0438\u0437\u0430\u0446\u0438\u044f \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u0440\u0435\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u0438 \u043f\u0440\u043e\u0435\u043a\u0442\u043e\u0432", None))
-        self.MeasurersButton.setText(QCoreApplication.translate("MainWindow", u"\u041e\u043f\u0442\u0438\u043c\u0438\u0437\u0430\u0446\u0438\u044f \u0432\u044b\u0435\u0437\u0434\u043e\u0432 \u0437\u0430\u043c\u0435\u0440\u0449\u0438\u043a\u043e\u0432", None))
-        self.ArchitectsButton.setText(QCoreApplication.translate("MainWindow", u"\u041e\u043f\u0442\u0438\u043c\u0438\u0437\u0430\u0446\u0438\u044f \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u0435 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u043e\u0440\u043e\u0432", None))
-        self.VolumeButton.setText(QCoreApplication.translate("MainWindow", u"\u041e\u043f\u0442\u0438\u043c\u0438\u0437\u0430\u0446\u0438\u044f \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044f \u0441\u0440\u0435\u0434\u0441\u0442\u0432 \u043f\u043e \u043e\u0431\u044a\u0435\u043a\u0442\u0430\u043c ", None))
+        self.ProjectsButton.setText(QCoreApplication.translate("MainWindow", u"\u041e\u0442\u0434\u0435\u043b \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f", None))
+        self.MeasurersButton.setText(QCoreApplication.translate("MainWindow", u"\u041e\u0442\u0434\u0435\u043b \u043b\u043e\u0433\u0438\u0441\u0442\u0438\u043a\u0438", None))
+        self.ArchitectsButton.setText(QCoreApplication.translate("MainWindow", u"\u041e\u0442\u0434\u0435\u043b \u0444\u0438\u043d\u0430\u043d\u0441\u043e\u0432", None))
+        self.VolumeButton.setText(QCoreApplication.translate("MainWindow", u"\u0411\u0443\u0445\u0433\u0430\u043b\u0442\u0435\u0440\u0438\u044f", None))
     # retranslateUi
 

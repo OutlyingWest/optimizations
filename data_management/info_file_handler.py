@@ -7,7 +7,7 @@ class InfoFilesHandler:
         self.text = text
 
     def read_info_from_file(self):
-        with open(file=f'{self.path}{self.name}.txt', mode="r") as info:
+        with open(file=f'{self.path}{self.name}.txt', mode="r", encoding='utf-8') as info:
             rode_info_text = info.read()
         return rode_info_text
 

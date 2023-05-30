@@ -34,5 +34,6 @@ class MainWindow(QMainWindow):
                                          info_file_name=self.config.button_links_dict[button_name])
         info_text = files_manager.read_info_from_file()
         self.info_widgets[button_name].ui.textEdit.setText(info_text)
+        self.info_widgets[button_name].setWindowTitle(button_obj.text())
         # Show info window
         self.info_widgets[button_name].show()
