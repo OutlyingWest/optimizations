@@ -2,7 +2,6 @@
 Contains features for load settings
 """
 import os
-import json
 from dataclasses import dataclass
 from environs import Env
 

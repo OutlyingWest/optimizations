@@ -1,4 +1,4 @@
-from PySide6.QtCore import Slot, Qt
+from PySide6.QtCore import Slot
 from PySide6.QtWidgets import QMainWindow, QPushButton
 from ui.info import InfoWidget
 from ui.ui_pyside_base.ui_main_window import Ui_MainWindow
